@@ -1,0 +1,8 @@
+/* Pogo */
+div[data-pogo] { display: flex; justify-items: center; align-items: center; text-align: center; margin-left: auto; margin-right: auto; }
+div[data-pogo] iframe { margin-left: auto; margin-right: auto; }
+div[data-pogo="top"], div[data-pogo="main"], div[data-pogo="incontent"], div[data-pogo="sidebar"]  { min-height: 270px; text-align: center; }
+
+@media (min-width: 1280px) {
+  .content_75_static div[data-pogo="main"] { min-width: 970px; margin-left: -38px; }
+}
